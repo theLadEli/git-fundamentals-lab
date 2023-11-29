@@ -1,42 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My page</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>theLadEli</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="/assets/Favicon.png">
 
-    <h1>👋 Hello Universe!</h1>
 
-    <p>Why say "Hello World" when you have the whole universe ahead of you!</p>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
 
-    <h2>About me</h2>
-    <ul>
-      <li>My name is Eli, I'm 17.</li>
-      <li>I do Web Design and Development for private clients: <a href="https://echocreations.co.uk/">echocreations.co.uk</a>.</li>
-      <li>I have a Bearded Dragon (reptile) named Toothless.</li>
-    </ul>
+<body>
 
-    <h3>Hobbies and interests:</h3>
-    <ul>
-      <li>Web Design & Development<li>
-      <li>Reading</li>
-      <li>Writing</li>
-      <li>Late night walks</li>
-    </ul>
+  <section id="content">
+    <header>
+      <div>
+        <h2>theLadEli</h2>
+        <hr>
+      </div>
 
-    <h3>Places I've visited:</h3>
-    <ul>
-      <li>Italy</li>
-      <li>Switzerland</li>
-      <li>Israel<li>
-      <li>Qatar (upcoming)</li>
-      <li>Thailand (upcoming)</li>
-      <li>Cambodia (upcoming)</li>
-      <li>Vietnam (upcoming)</li>
-    </ul>
-  </body>
+      <img src="assets/vintage pfp.png" alt="Toothless learns to code :)" id="pfp">
+
+      <div id="header-right">
+        <div id="socials">
+          <a href="https://github.com/theLadEli/"><img src="assets/GitHub.svg" alt="GitHub Logo" width="30"></a>
+          <a href="https://twitter.com/theLadEli"><img src="assets/Twitter.svg" alt="Twitter Logo" width="30"></a>
+          <a href="https://echocreations.co.uk/"><img src="assets/Website.svg" alt="Website Icon" width="30"></a>
+        </div>
+        <hr>
+      </div>
+    </header>
+
+    <section id="bio">
+
+      <h1>Hello Universe.</h1>
+      <p>
+        Why settle for "Hello World" when you've got an entire universe to explore? My name is Eli, a random
+        Londoner of 17-years-old. Me and my Bearded Dragon, Toothless, spend our days learning to code, with her
+        crawling around my desk and offering her advice on my programming struggles.
+      </p>
+      <p>
+        Besides my continuous attempts at getting code to work correctly, as well as my daytime job, I also do Web
+        Design & Development under my brand name Echo Creations. You can check that out over here <a
+          href="https://echocreations.co.uk/">www.echocreations.co.uk</a> :D
+      </p>
+
+    </section>
+
+    <section id="hobbies-places">
+      <div class="hp">
+        <h1>Programming Skills</h1>
+        <ul id="ps-list">
+          <li>
+            <img src="assets/html.svg" alt="html icon" class="list-bullet-icon">
+            HTML
+            <div class="knowledge-level-tile"><img src="assets/Brain Icon (Expert).png"
+                alt="Knowledge Level: Proficient">Proficient</div>
+          </li>
+
+          <li>
+            <img src="assets/css.svg" alt="css icon" class="list-bullet-icon">
+            CSS
+            <div class="knowledge-level-tile"><img src="assets/Brain Icon (Expert).png"
+                alt="Knowledge Level: Proficient">Proficient</div>
+          </li>
+
+          <li>
+            <img src="assets/javascript.svg" alt="javascript icon" class="list-bullet-icon">
+            JavaScript
+            <div class="knowledge-level-tile"><img src="assets/Brain Icon_ Intermediate.png"
+                alt="Knowledge Level: Intermediate">Intermediate</div>
+          </li>
+
+          <li>
+            <img src="assets/python.svg" alt="python icon" class="list-bullet-icon">
+            Python
+            <div class="knowledge-level-tile"><img src="assets/Brain Icon (Beginner).png"
+                alt="Knowledge Level: Beginner">Beginner</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hp">
+        <h1>About Me :D</h1>
+        <ul>
+          <li>
+            <img src="assets/book.svg" alt="book icon" class="list-bullet-icon">
+            <div style="width: max-content;">
+              <b>Favourite Book:</b> Sapiens by Yuvel Noah Harrari
+            </div>
+          </li>
+
+          <li>
+            <img src="assets/movie.svg" alt="movie icon" class="list-bullet-icon">
+            <div style="width: max-content;">
+              <b>Favourite Movie:</b> JoJo Rabbit (2019)
+            </div>
+          </li>
+
+          <li>
+            <img src="assets/footsteps.svg" alt="footsteps icon" class="list-bullet-icon">
+            <div style="width: max-content;">
+              <b>Favourite Activity:</b> Late night walks while listening to music
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+  </section>
+
+</body>
+
 </html>
